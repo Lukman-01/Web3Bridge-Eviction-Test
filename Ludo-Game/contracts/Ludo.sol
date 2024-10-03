@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract MyLudoGame {
+contract Ludo {
     mapping(address => uint256) public playerPositions;
     uint8 public constant boardSize = 52;
     event PlayerMoved(address indexed player, uint res);
